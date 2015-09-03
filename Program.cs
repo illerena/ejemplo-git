@@ -10,7 +10,8 @@ namespace ejemplo_git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola mundo");
+            string n = Console.ReadLine();
+            Console.WriteLine("Hola {0}", n);
             Console.ReadLine();
         }
     }
